@@ -1,6 +1,8 @@
 from scrapy.item import Item, Field
 
 
-class Goods(Item):
+class Good(Item):
     name = Field()
     price = Field()
+    image_urls = Field()
+    images = Field()
